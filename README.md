@@ -5,7 +5,7 @@ Flutter package to help you create your customized profile wheel.
 There are many options available to customize the wheel. The following example only covers the
  required parameters. But it is possible to set all colors/shades etc.
 
-![alt text](https://github.com/nietsmmar/responsive_bottom_bar/blob/main/lib/example.png =100x20 "Example
+![alt text](https://github.com/nietsmmar/responsive_bottom_bar/blob/main/lib/example.png "Example
  screenshot")
  
 ## Getting Started
