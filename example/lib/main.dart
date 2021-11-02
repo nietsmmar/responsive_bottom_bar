@@ -31,28 +31,24 @@ class _MyAppState extends State<MyApp> {
           ),
           body: Text("hello world: $currentIndex"),
           bottomNavigationBar: ResponsiveBottomBar(
-              items: [
+              items: const [
                 BottomBarItem(
                     title: "This is a very long title Yooo",
-                    iconData: Icons.add_box,
-                    currentIndex: currentIndex),
+                    iconData: Icons.add_box),
                 BottomBarItem(
                     title: "Wer sich",
-                    iconData: Icons.share,
-                    currentIndex: currentIndex),
+                    iconData: Icons.share),
                 BottomBarItem(
                     title: "jetzt noch",
-                    iconData: Icons.star_rate,
-                    currentIndex: currentIndex),
+                    iconData: Icons.star_rate),
                 BottomBarItem(
                     title: "umdreht ist",
-                    iconData: Icons.library_add,
-                    currentIndex: currentIndex),
+                    iconData: Icons.library_add),
                 BottomBarItem(
                     title: "selber schuld :)",
-                    iconData: Icons.pages_rounded,
-                    currentIndex: currentIndex),
+                    iconData: Icons.pages_rounded),
               ],
+              currentIndex: currentIndex,
               onTap: (int index) {
                 setState(() {
                   currentIndex = index;

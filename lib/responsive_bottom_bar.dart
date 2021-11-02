@@ -6,8 +6,9 @@ import 'package:sizer/sizer.dart';
 class ResponsiveBottomBar extends StatefulWidget {
   final Function onTap;
   final List<BottomBarItem> items;
+  final int currentIndex;
 
-  const ResponsiveBottomBar({required this.onTap, Key? key, required this.items})
+  const ResponsiveBottomBar({required this.onTap, Key? key, required this.items, required this.currentIndex})
       : super(key: key);
 
   @override
@@ -25,7 +26,7 @@ class ResponsiveBottomBarState extends State<ResponsiveBottomBar> {
             for (var i = 0; i < widget.items.length; i++)
               InternalBottomBarItem(
                   numItems: widget.items.length,
-                  currIndex: widget.items[i].currentIndex,
+                  currIndex: widget.currentIndex,
                   index: i,
                   item: widget.items[i],
                   onTap: () {
