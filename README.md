@@ -44,5 +44,5 @@ Widget build(BuildContext context) {
                 });
               })),
     );
-  }
+}
 ```
