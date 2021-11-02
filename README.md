@@ -1,9 +1,8 @@
 [![](https://img.shields.io/pub/v/responsive_bottom_bar)](https://pub.dev/packages/responsive_bottom_bar)
 # responsive_bottom_bar
 
-Flutter package to help you create your customized profile wheel.
-There are many options available to customize the wheel. The following example only covers the
- required parameters. But it is possible to set all colors/shades etc.
+Flutter package to help you create a fully responsive bottom bar. You can add titles and icons
+ like in a regular bottom bar and the package will handle responsiveness for you.
 
 ![alt text](https://github.com/nietsmmar/responsive_bottom_bar/blob/main/lib/example.png "Example
  screenshot")
