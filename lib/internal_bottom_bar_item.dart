@@ -11,7 +11,12 @@ class InternalBottomBarItem extends StatelessWidget {
   final int index;
 
   const InternalBottomBarItem(
-      {Key? key, required this.index, required this.currIndex, required this.numItems, required this.onTap, required this.item})
+      {Key? key,
+      required this.index,
+      required this.currIndex,
+      required this.numItems,
+      required this.onTap,
+      required this.item})
       : super(key: key);
 
   @override
@@ -32,10 +37,13 @@ class InternalBottomBarItem extends StatelessWidget {
                     child: Icon(
                       item.iconData,
                       size: 5.w,
-                      color: currIndex == index ? Theme.of(context).primaryColor : Theme.of(context).textTheme.caption!.color,
+                      color: currIndex == index
+                          ? Theme.of(context).primaryColor
+                          : Theme.of(context).textTheme.caption!.color,
                     )),
                 SizedBox(
-                    width: (100 / numItems).w - 2.w, // -2.w to have left/right padding
+                    width: (100 / numItems).w -
+                        2.w, // -2.w to have left/right padding
                     height: kBottomNavigationBarHeight / 2 - 1.w,
                     child: Container(
                         alignment: Alignment.center,
@@ -47,7 +55,9 @@ class InternalBottomBarItem extends StatelessWidget {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 10.sp,
-                            color: currIndex == index ? Theme.of(context).primaryColor : Theme.of(context).textTheme.caption!.color,
+                            color: currIndex == index
+                                ? Theme.of(context).primaryColor
+                                : Theme.of(context).textTheme.caption!.color,
                           ),
                         )))
               ],

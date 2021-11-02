@@ -8,7 +8,11 @@ class ResponsiveBottomBar extends StatefulWidget {
   final List<BottomBarItem> items;
   final int currentIndex;
 
-  const ResponsiveBottomBar({required this.onTap, Key? key, required this.items, required this.currentIndex})
+  const ResponsiveBottomBar(
+      {required this.onTap,
+      Key? key,
+      required this.items,
+      required this.currentIndex})
       : super(key: key);
 
   @override
@@ -20,7 +24,8 @@ class ResponsiveBottomBarState extends State<ResponsiveBottomBar> {
   Widget build(BuildContext context) {
     return Sizer(builder: (_, __, ___) {
       return Container(
-        height: kBottomNavigationBarHeight + MediaQuery.of(context).padding.bottom,
+        height:
+            kBottomNavigationBarHeight + MediaQuery.of(context).padding.bottom,
         child: Row(
           children: [
             for (var i = 0; i < widget.items.length; i++)

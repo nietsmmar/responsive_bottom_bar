@@ -35,18 +35,12 @@ class _MyAppState extends State<MyApp> {
                 BottomBarItem(
                     title: "This is a very long title Yooo",
                     iconData: Icons.add_box),
+                BottomBarItem(title: "Wer sich", iconData: Icons.share),
+                BottomBarItem(title: "jetzt noch", iconData: Icons.star_rate),
                 BottomBarItem(
-                    title: "Wer sich",
-                    iconData: Icons.share),
+                    title: "umdreht ist", iconData: Icons.library_add),
                 BottomBarItem(
-                    title: "jetzt noch",
-                    iconData: Icons.star_rate),
-                BottomBarItem(
-                    title: "umdreht ist",
-                    iconData: Icons.library_add),
-                BottomBarItem(
-                    title: "selber schuld :)",
-                    iconData: Icons.pages_rounded),
+                    title: "selber schuld :)", iconData: Icons.pages_rounded),
               ],
               currentIndex: currentIndex,
               onTap: (int index) {
