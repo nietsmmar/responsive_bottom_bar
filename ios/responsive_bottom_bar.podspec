@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint responsive_bottombar.podspec` to validate before publishing.
+# Run `pod lib lint responsive_bottom_bar.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'responsive_bottombar'
+  s.name             = 'responsive_bottom_bar'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
