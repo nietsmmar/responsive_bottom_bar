@@ -1,5 +1,5 @@
 #import "ResponsiveBottomBarPlugin.h"
-#if __has_include(<responsive_bottombar/responsive_bottom_bar-Swift.h>)
+#if __has_include(<responsive_bottom_bar/responsive_bottom_bar-Swift.h>)
 #import <responsive_bottom_bar/responsive_bottom_bar-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header

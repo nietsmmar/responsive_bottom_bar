@@ -1,3 +1,7 @@
+## 0.0.4
+
+* fix ios podspec
+
 ## 0.0.3
 
 * fix ios podspec
